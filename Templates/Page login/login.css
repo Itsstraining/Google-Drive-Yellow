@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.khung1 {
+    display: flex;
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 15px;
+    border: 5px solid rgb(0, 105, 128);
+    opacity: 0.7;
+    margin-top: 30%;
+}
+
+.A {
+    font-size: 45px;
+    font-family: 'Lobster', cursive;
+}
+
+#id {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+#p {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+#Đ {
+    margin-bottom: 10px;
+}
+
+.img-bottom {
+    display: inline-flex;
+}
+
+body {
+    background-image: url(./95Zsit8.jpg);
+    background-size: cover;
+}
