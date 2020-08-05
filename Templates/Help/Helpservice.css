@@ -1,0 +1,30 @@
+.card-header {
+    width: 600px;
+}
+
+.card {
+    width: fit-content;
+    /* margin-bottom: 5px; */
+    /* margin-top: 50px; */
+}
+
+.accordion {
+    margin-top: 90px;
+    align-content: flex-end;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    /* position: absolute; */
+    background-image: url(./30741f3f207dd58fb7adc68f226439bc\ \(1\).jpg);
+    width: 500px;
+    height: 120px;
+    justify-content: center;
+    display: flex;
+}
