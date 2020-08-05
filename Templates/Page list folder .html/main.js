@@ -1,23 +1,25 @@
-let arrten = ['DATABASE','TPHCM','DANH SÁCH SINH VIEN','HOA'
-            ,'TOAN','LÝ','SINH', 'ANH', 'LTHDT','CẤU TRÚC DỮ LIỆU',
-            'ĐƯỜNG LỐI CÁCH MẠNG']
-
-
-function FolderButton(){
-    let file= document.getElementById("folder");
-    for (let i=0; i< arrten.length; i++){
-    let nut= document.createElement("button");
-    let link=document.createElement("a");
-    // let anh=document.createElement("img");
+// let arrten = [{name: "database", link: "https://drive.google.com/file/d/1-bNFtVaoRuHCIZD5ZjaC-IGbEoPZ0oxK/view"},{name:"Anh",link:"https://drive.google.com/file/d/1NadcjYGg9zpfJbUe7SjurO8Tfl0XDo4k/view?usp=drive_open"},{name:"Speaking",link:"https://drive.google.com/file/d/1f8pa11S9Ao2BGZhny491Dd5jGLscnZkx/view"},{nam:"written",link:"https://drive.google.com/file/d/1lsew44esHEI6MdAl-GJ5jk4hqhP7OFIG/view"}]
+// function FolderButton(){
+//     let file= document.getElementById("folder");
+//     for (let i=0; i< arrten.length; i++){
+//     let nut= document.createElement("button");
     
-    link.href="./folder.svg"
-    // anh.src=""
-    nut.innerText= arrten[i];   
+//     let anh=document.createElement("img");
     
-    nut.appendChild(link);
-    file.appendChild(nut);
-    }
-}
-FolderButton();
+//     link.href = arrten[i].link;
+//     nut.onclick(()=>{
+//         window.open(arrten[i]);
+//         window.focus()
+//     })
+//     nut.innerText= arrten[i].name;  
+//     anh.src="./folder.svg"
+//     anh.width = 20; 
+    
+//     file.appendChild(nut);
+//     nut.appendChild(anh);
+//     }
+// }
+// FolderButton();
+
 
 
