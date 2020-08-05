@@ -9,12 +9,24 @@
     width: 350px;
     height: 350px;
     margin-bottom: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     flex-direction: column;
     padding: 15px;
-    border: 5px solid rgb(0, 105, 128);
-    opacity: 0.7;
+    border: 3px solid #859398;
+    opacity: 0.9;
     margin-top: 30%;
+    /* background-color:  rgbrgb(160, 223, 223); */
+    background: #8e9eab;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab);
+    W3C,
+    IE 10+/ Edge,
+    Firefox 16+,
+    Chrome 26+,
+    Opera 12+,
+    Safari 7+
 }
 
 .A {
@@ -23,24 +35,87 @@
 }
 
 #id {
-    width: 300px;
+    width: 350px;
+    height: 35px;
     margin-bottom: 10px;
+    margin: center;
+    background-color: snow;
+    border-radius: 5px;
+    outline: none;
 }
 
+
+/* #id:hover {
+    background: #8e9eab;
+    color: #8e9eab;
+} */
+
 #p {
-    width: 300px;
+    width: 350px;
+    height: 35px;
     margin-bottom: 10px;
+    margin: right;
+    background-color: snow;
+    border-radius: 5px;
+    outline: none;
 }
+
+
+/* #p:hover {
+    background: #8e9eab;
+    color: #8e9eab;
+} */
 
 #Đ {
     margin-bottom: 10px;
+    height: 35px;
+    width: 90px;
+    background-color: snow;
+    border-radius: 5px;
+    outline: none;
 }
 
+#Đ:hover {
+    background: #8e9eab;
+    color: #8e9eab;
+}
+
+.check {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+}
 .img-bottom {
     display: inline-flex;
 }
-
 body {
-    background-image: url(./95Zsit8.jpg);
+    /* background-image: url(./95Zsit8.jpg); */
+    
     background-size: cover;
+    animation: slide 10s infinite;
+    background-repeat: no-repeat;
+}
+@keyframes slide {
+    0% {
+        background-image: url(./181.jpg);
+    }
+    
+    25% {
+        background-image: url(./95Zsit8.jpg);
+    }
+    
+    50% {
+        background-image: url(./181.jpg);
+    }
+    
+    75% {
+        background-image: url(./3954.jpg);
+    }
+    
+    100% {
+        background-image: url(./19758.jpg);
+    }
 }
