@@ -13,7 +13,7 @@
     flex-direction: column;
     padding: 15px;
     border: 3px solid #859398;
-    opacity: 0.9;
+    opacity: 0.7;
     margin-top: 30%;
     /* background-color:  rgbrgb(160, 223, 223); */
     background: #8e9eab;
@@ -60,11 +60,10 @@
     outline: none;
 }
 
-
-/* #p:hover {
+#p:hover {
     background: #8e9eab;
     color: #8e9eab;
-} */
+}
 
 #Đ {
     margin-bottom: 10px;
