@@ -4,17 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forder</title>
-    <link rel="stylesheet" href="design.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="link.css">
+
 </head>
 <body>
-    <div class="one">
-        <a href="https://docs.google.com/spreadsheets/d/11oTZHaDnn8swDr8GUMMPPe1MotwJtKmAk0ZFrtG0v-U/edit#gid=0"><button class="btn btn-success" type="button" ><img src="./folder.svg" width="20" height="20"> Bài tập 1</button></a>
-        <a href="https://drive.google.com/file/d/1-fkwOIYJ0a7aPZP3jOuIpGpvzmd9A7Lz/view"><button class="btn btn-success" type="button" ><img src="./folder.svg" width="20" height="20"> Bài tập 2</button></a>
-        
+
+    <div class="row">
+        <div class="col-lg-3">
+            <a href="https://docs.google.com/spreadsheets/d/11oTZHaDnn8swDr8GUMMPPe1MotwJtKmAk0ZFrtG0v-U/edit#gid=0"><button class="btn btn-success" type="button" ><img src="./folder.svg" width="20" height="20"> Bài tập 1</button></a>
+            <div class="like">
+                 <button id="id1" type="button" onclick="document.getElementById('id1').style.color = 'blue'"><img src="./like.svg" width="25px" height="25px" alt="">like</button>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <a href="https://drive.google.com/file/d/1-fkwOIYJ0a7aPZP3jOuIpGpvzmd9A7Lz/view"><button class="btn btn-success" type="button" ><img src="./folder.svg" width="20" height="20"> Bài tập 2</button></a>
+
+            <div class="like">
+                <button id="id2" type="button" onclick="document.getElementById('id2').style.color = 'blue'"><img src="./like.svg" width="25px" height="25px" alt="">like</button>
+            </div>
+        </div>
     </div>
 
     
