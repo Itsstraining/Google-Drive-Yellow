@@ -100,6 +100,11 @@ ul ul a {
     border-color: #fff;
 }
 
+.btn-info:hover {
+    background-color: grey;
+    border-color: #fff;
+}
+
 .btn-primary {
     display: flex;
     justify-content: start;
@@ -110,10 +115,10 @@ ul ul a {
     border-color: #fff;
 }
 
-.btn-primary :hover {
+.btn-primary:hover {
     color: #fff;
-    background-color: #fff;
-    border: #fff;
+    background-color: grey !important;
+    border-color: grey!important;
 }
 
 .btn-secondary {
@@ -141,4 +146,27 @@ ul ul a {
     color: black;
     background-color: gray;
     border-color: black;
+}
+
+[data-theme="dark"] {
+    background-color: #111 !important;
+    color: #eee;
+}
+
+[data-theme="dark"] .bg-light {
+    background-color: #333 !important;
+}
+
+[data-theme="dark"] .bg-white {
+    background-color: #000 !important;
+}
+
+[data-theme="dark"] .bg-black {
+    background-color: #eee !important;
+}
+
+.btn-default:hover {
+    color: #fff;
+    background-color: grey !important;
+    border-color: grey!important;
 }
