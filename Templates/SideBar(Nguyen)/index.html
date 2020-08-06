@@ -231,6 +231,33 @@
                     </div>
                 </li>
                 <li>
+                    <a href="#chatSideBar" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">CHATTING</a>
+                    <ul class="collapse list-unstyled" id="chatSideBar">
+                        <div class="chat-sidebar">
+                            <div class="sidebar-name">
+                                <a style="text-align: center;font-size: large;">LIST FRIENDS</a>
+                                <!-- Pass username and display name to register popup -->
+                                <a href="javascript:register_popup('tien-nguyen', 'Nguyễn Ngọc Tiến');">
+                                    <img width="50" height="50" src="Assets/45369958_146038849710316_416244882886098944_n.jpg" />
+                                    <span>Nguyễn Ngọc Tiến</span>
+                                </a>
+                            </div>
+                            <div class="sidebar-name">
+                                <a href="javascript:register_popup('thoa-le', 'Lê Kim Thoa');">
+                                    <img width="50" height="50" src="Assets/funny-cat-pictures-part-2-06-13-2012-016.jpg" />
+                                    <span>Lê Kim Thoa</span>
+                                </a>
+                            </div>
+                            <div class="sidebar-name">
+                                <a href="javascript:register_popup('tuan-dinh', 'Đinh Quốc Tuấn');">
+                                    <img width="50" height="50" src="Assets/dog-316459_1280-e1480615486124.jpg" />
+                                    <span>Đinh Quốc Tuấn</span>
+                                </a>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+                <li>
                     <a href="#"><img src="./Assets/graph.png" style="width: 20px;height: 20px;margin-left: 17px;">Connect to another App</a>
                 </li>
 
@@ -263,7 +290,9 @@
 
 
     </div>
+
     <script src="./dark-mode-switch.js"></script>
+    <script src="./chat.js"></script>
     <script>
         $(document).ready(function() {
             $('[data-toggle="popover"]').popover();
@@ -272,6 +301,13 @@
 
             $('#sidebarCollapse').on('click', function() {
                 $('#sidebar').toggleClass('active');
+            });
+            $(document).ready(function() {
+
+                $('#sidebarCollapse').on('click', function() {
+                    $('#chatSidebar').toggleClass('chat-sidebar');
+                });
+
             });
 
         });
