@@ -1,16 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 .card-header {
     width: 600px;
 }
 
 .card {
     width: fit-content;
-    /* margin-bottom: 5px; */
-    /* margin-top: 50px; */
+    margin-bottom: 5px;
 }
 
 .accordion {
     margin-top: 90px;
     align-content: flex-end;
+    opacity: 0.7;
+    font-size: 20px;
+}
+
+body {
+    background-image: url(./hinh-nen-3d-dep-nhat-125.jpg);
+    text-align: center;
 }
 
 .container1 {
@@ -21,10 +28,37 @@
 }
 
 .box {
-    /* position: absolute; */
-    background-image: url(./30741f3f207dd58fb7adc68f226439bc\ \(1\).jpg);
-    width: 500px;
-    height: 120px;
+    height: 200px;
     justify-content: center;
     display: flex;
+    opacity: 0.8;
+    align-items: flex-end;
+}
+
+#button {
+    width: 70px;
+    height: 50px;
+    /* border-radius: 10px; */
+    outline: none;
+    box-shadow: 4px 4px 4px 4px #E5E5BE;
+    border: none;
+}
+
+#button:hover {
+    background-color: #E6DADA;
+}
+
+#search {
+    width: 350px;
+    height: 50px;
+    /* border-radius: 10px; */
+    outline: none;
+    box-shadow: 4px 4px 4px 4px #E5E5BE;
+    border: none;
+}
+
+.name {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 60px;
+    color: #ECE9E6;
 }
