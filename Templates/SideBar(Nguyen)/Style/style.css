@@ -8,9 +8,10 @@
     min-width: 250px;
     max-width: 250px;
     height: 100vh;
-    background: #7386D5;
-    color: #fff;
+    background: #fff;
+    color: black;
     transition: all 0.3s;
+    text-align: center;
 }
 
 #sidebar.active {
@@ -41,7 +42,7 @@ a[data-toggle="collapse"] {
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
     font-family: 'Poppins', sans-serif;
-    background: ghostwhite;
+    background: #fff;
 }
 
 p {
@@ -49,19 +50,20 @@ p {
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
-    color: #999;
+    color: black;
 }
 
 a,
 a:hover,
 a:focus {
-    color: inherit;
+    color: black;
+    background-color: #fff;
     text-decoration: none;
     transition: all 0.3s;
 }
 
 #sidebar ul p {
-    color: #fff;
+    color: black;
     padding: 10px;
 }
 
@@ -72,22 +74,71 @@ a:focus {
 }
 
 #sidebar ul li a:hover {
-    color: #7386D5;
+    color: black;
     background: #fff;
 }
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
-    color: #fff;
-    background: #6d7fcc;
+    color: black;
+    background: #fff
 }
 
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc;
+    background: #fff;
 }
 
 .modal-title {
     color: black;
+}
+
+.btn-info {
+    color: black;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.btn-primary {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    box-sizing: border-box;
+    color: black;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.btn-primary :hover {
+    color: #fff;
+    background-color: #fff;
+    border: #fff;
+}
+
+.btn-secondary {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    box-sizing: border-box;
+    color: black;
+    background-color: rgb(20, 82, 216);
+    border-color: rgb(20, 82, 216);
+}
+
+.btn-third {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    box-sizing: border-box;
+    color: black;
+    background-color: #999;
+    border-color: #999;
+}
+
+.btn-outline-success {
+    box-sizing: border-box;
+    color: black;
+    background-color: gray;
+    border-color: black;
 }
