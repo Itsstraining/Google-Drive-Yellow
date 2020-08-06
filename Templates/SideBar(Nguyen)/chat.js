@@ -1,5 +1,5 @@
 //this function can remove a array element.
-Array.remove = function(array, from, to) {
+Array.remove = function (array, from, to) {
     var rest = array.slice((to || from) + 1 || array.length);
     array.length = from < 0 ? array.length + from : from;
     return array.push.apply(array, rest);
@@ -70,7 +70,16 @@ function register_popup(id, name) {
     element = element + '<div style="clear: both"></div></div><div class="popup-messages"></div></div>';
 
     document.getElementsByTagName("body")[0].innerHTML = document.getElementsByTagName("body")[0].innerHTML + element;
-
+    $(document).ready(function () {
+        $('[data-toggle="popover"]').popover();
+        $('#sidebarCollapse').on('click', function () {
+            $('#sidebar').toggleClass('active');
+        });
+        $('#sidebarCollapse').on('click', function () {
+            $('#chatSidebar').toggleClass('chat-sidebar');
+        });
+        $("#centralModalSuccess").on('show.bs.modal');
+    });
     popups.unshift(id);
 
     calculate_popups();
