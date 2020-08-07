@@ -1,0 +1,253 @@
+#I {
+    size: 2px;
+}
+
+#navbarDropdown {
+    margin-left: 50px;
+    width: 100px;
+}
+
+.form-control mr-sm-2 {
+    width: 350px;
+}
+
+.row {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.container-fluid {
+    padding: 0px !important;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    align-items: stretch;
+}
+
+#sidebar {
+    border-right-style: outset;
+    min-width: 250px;
+    max-width: 250px;
+    height: 100vh;
+    background: #80deea18;
+    color: black;
+    transition: all 0.3s;
+    text-align: center;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: black;
+}
+
+.navbar {
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 0;
+    padding-bottom: 5px;
+}
+
+.navbarback {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    background-color: #80deea;
+}
+
+#navbarSupportedContent {
+    justify-content: space-around;
+    padding-left: 25vw;
+}
+
+a,
+a:hover,
+a:focus {
+    color: black;
+    /* background-color: #fff; */
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.sidebar-header {
+    margin-top: 30px;
+}
+
+#sidebar ul p {
+    color: black;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: black;
+    background: #fff;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: black;
+    background: #fff
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #fff;
+}
+
+.modal-title {
+    color: black;
+}
+
+.btn-info {
+    /* color: black; */
+    /* background-color: #fff; */
+    border-color: #fff;
+}
+
+
+/* .btn-info:hover {
+    /* background-color: grey; */
+
+
+/* border-color: #fff; */
+
+.btn-primary {
+    display: flex;
+    justify-content: start;
+    /* width: 100%; */
+    box-sizing: border-box;
+    color: black;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: grey !important;
+    border-color: grey!important;
+}
+
+.btn-secondary {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    box-sizing: border-box;
+    color: black;
+    background-color: rgb(20, 82, 216);
+    border-color: rgb(20, 82, 216);
+}
+
+.btn-third {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    box-sizing: border-box;
+    color: black;
+    background-color: #999;
+    border-color: #999;
+}
+
+.btn-outline-success {
+    box-sizing: border-box;
+    color: black;
+    background-color: gray;
+    border-color: black;
+}
+
+[data-theme="dark"] {
+    background-color: #111 !important;
+    color: #eee;
+}
+
+[data-theme="dark"] .bg-light {
+    background-color: #333 !important;
+}
+
+[data-theme="dark"] .bg-white {
+    background-color: #000 !important;
+}
+
+[data-theme="dark"] .bg-black {
+    background-color: #eee !important;
+}
+
+.btn-default:hover {
+    color: #fff;
+    background-color: grey !important;
+    border-color: grey!important;
+}
+
+
+/* body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+/* #folder{
+    width: 50px;
+    height: 50px;
+}
+.one button{ 
+    font-size: 26px;
+    width: 200px;
+    height:50px;
+    margin-left: 90px;
+    margin-top: 100px;
+}
+.two button {
+    margin-left: 90px;
+    margin-top: 20px;
+    width: 200px;
+    height:50px;
+    font-size: 26px;
+} */
+
+.col-lg-3 {
+    margin-bottom: 20px;
+}
+
+.dropdown-toggle::after {
+    position: initial;
+}
