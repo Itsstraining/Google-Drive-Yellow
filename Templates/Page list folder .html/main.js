@@ -20,6 +20,16 @@
 //     }
 // }
 // FolderButton();
+    function like(){
+        let form= document.getElementById("like");
+        if(form.style.display == "none"){
+            form.style.display = "block";
+
+        } else{
+            form.style.display = "none"
+        }
+    }
+
 
 
 
