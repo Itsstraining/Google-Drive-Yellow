@@ -27,6 +27,15 @@ body {
     align-items: center;
 }
 
+.back_mainpage {
+    width: 30px;
+    height: 20px;
+    /* border-radius: 10px; */
+    outline: none;
+    box-shadow: 4px 4px 4px 4px #bbd2c5;
+    border: none;
+}
+
 .box {
     height: 200px;
     justify-content: center;
@@ -34,7 +43,7 @@ body {
     opacity: 0.8;
     align-items: flex-end;
     background-color: #80deea;
-    width:1500px
+    width: 1500px
 }
 
 #button {
@@ -55,12 +64,12 @@ body {
     height: 50px;
     /* border-radius: 10px; */
     outline: none;
-    box-shadow: 4px 4px 4px 4px #bbd2c5 ;
+    box-shadow: 4px 4px 4px 4px #bbd2c5;
     border: none;
 }
 
 .name {
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 60px;
-    color: #ffffff ;
+    color: #ffffff;
 }
