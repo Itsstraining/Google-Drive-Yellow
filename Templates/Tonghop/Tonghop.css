@@ -214,8 +214,12 @@ ul ul a {
 
 .btn-default:hover {
     color: #fff;
-    background-color: grey !important;
-    border-color: grey!important;
+    background-color: grey;
+    border-color: grey;
+}
+
+.btn-default {
+    color: #000;
 }
 
 
